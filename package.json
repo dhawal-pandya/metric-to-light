@@ -1,0 +1,28 @@
+{
+  "name": "metric-to-light",
+  "version": "1.0.0",
+  "description": "A utility to convert metric distances to the time it takes for light to travel that distance.",
+  "main": "dist/metric-to-light.js",
+  "types": "dist/metric-to-light.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "metric",
+    "light",
+    "distance",
+    "time",
+    "conversion",
+    "speed of light"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.0.0"
+  }
+}
